@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+}
+
+.front {
+  appearance: none;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+  border: none;
+  transform: scaleX(0);
+}
+
+.back {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+  transform: scaleX(1);
+}
